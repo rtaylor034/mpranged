@@ -1,0 +1,16 @@
+> #mpranged:implement > example
+--------------------
+ ! same trigger format as hook
+  @ tick | pre-tick | post-tick | advancement
+--------------------
+ -> input: int
+--------------------
+ <- output: string
+--------------------
+> this has the same format as regular api functions, except <input> is stored under {mpranged:implement -> example[-1].in.input} and >output< in {mpranged:implement -> example[-1].out.output}
+> {mpranged:implement -> example[-1]} is to be cleared by 'mpranged', not the implementor.
+--------------------
+- notes...
+--------------------
+ return values...
+--------------------
