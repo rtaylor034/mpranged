@@ -12,7 +12,8 @@ execute unless data storage mpranged:settings {PERSIST:true} run function mprang
 # scoreboards
 scoreboard objectives add -mpranged dummy
 scoreboard objectives add --mpranged dummy
-#scoreboard objectives add mpranged-scoreboard dummy
+scoreboard objectives add _mpranged-use_bow minecraft.used:minecraft.bow
+scoreboard objectives add _mpranged-use_crossbow minecraft.used:minecraft.crossbow
 
 # tick
 schedule clear mpranged:_/tick
